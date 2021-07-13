@@ -37,7 +37,16 @@ router.post('/send-email', async (req, res)=>{
     });
     
     console.log('message send', info.messageId);
-    
+       
+    transporter.sendMail(mailOptions, function(err, data) {
+        if(err) {
+            console.log('Error ocurido upss');
+        }else{
+            console.log('Email enviado correctamente');
+            res.redirect('/index.html');
+            alert('Su correo a sido recicido, espere nuestra pronta respuesta');
+        }
+    });
 });
 
 module.exports = router;
