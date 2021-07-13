@@ -1,0 +1,26 @@
+{
+  "name": "templatemo_516_known",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musimeris/musimeris.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musimeris/musimeris.github.io/issues"
+  },
+  "homepage": "https://github.com/musimeris/musimeris.github.io#readme"
+}
