@@ -1013,3 +1013,11 @@
   margin-top: 20px;
 }
 
+#logo_about{
+  width: 100%;
+  text-align: center;
+}
+#logo-img{
+  max-width: 100%;
+  height: auto;
+}
