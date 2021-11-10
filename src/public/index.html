@@ -1,323 +1,499 @@
 <!DOCTYPE html>
 <html lang="en">
-
- <head>
-
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
-
-    <title>Softy Pinko - Bootstrap 4.0 Theme</title>
-<!--
-SOFTY PINKO
-https://templatemo.com/tm-535-softy-pinko
--->
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
-    <link rel="stylesheet" href="assets/css/templatemo-softy-pinko.css">
-
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-
-    </head>
     
-    <body>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>LLAMKAY</title>
     
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>  
-    <!-- ***** Preloader End ***** -->
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/templatemo-softy-pinko.css">
+
+    <link rel="stylesheet" href="css/styles.min.css">
+
+    <link rel="stylesheet" href="css/templatemo-style.css">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
     
-    
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">
-                            <img src="assets/images/freereal.ico" alt="Softy Pinko"/>
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li><a href="#welcome" class="active">Inicio</a></li>
-                            <li><a href="#features">Nosotros</a></li>
-                            <li><a href="#work-process">Metodo</a></li>
-                            <li><a href="#testimonials">Testimonios</a></li>
-                            <li><a href="#pricing-plans">Precios</a></li>
-                            <li><a href="#blog">Equipo</a></li>
-                            <li><a href="#contact-us">Contactanos</a></li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
+            
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a>  
 
-    <!-- ***** Welcome Area Start ***** -->
-    <div class="welcome-area" id="welcome">
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Spify</a> -->
 
-        <!-- ***** Header Text Start ***** -->
-        <div class="header-text">
-            <div class="container">
-                <div class="row">
-                    <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
-                        <h1>Te brindamos la mejor <strong>manera</strong><br>de promocionar tu <strong>servicio</strong></h1>
-                        
-                        <a href="#features" class="main-button-slider">Descubre Más</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ***** Header Text End ***** -->
-    </div>
-    <!-- ***** Welcome Area End ***** -->
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <!-- ***** Features Small Start ***** -->
-    <section class="section home-feature">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="row">
-                        <!-- ***** Features Small Item Start ***** -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
-                            <div class="features-small-item">
-                                <div class="icon">
-                                    <i><img src="assets/images/featured-item-01.png" alt=""></i>
-                                </div>
-                                <h5 class="features-title">Estrategia moderna</h5>
-                                <p>la mejor Estrategia para tus servicios</p>
-                            </div>
-                        </div>
-                        <!-- ***** Features Small Item End ***** -->
-
-                        <!-- ***** Features Small Item Start ***** -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
-                            <div class="features-small-item">
-                                <div class="icon">
-                                    <i><img src="assets/images/featured-item-01.png" alt=""></i>
-                                </div>
-                                <h5 class="features-title">La mejor Relación</h5>
-                                <p>Contáctenos de inmediato si tiene alguna pregunta en mente</p>
-                            </div>
-                        </div>
-                        <!-- ***** Features Small Item End ***** -->
-
-                        <!-- ***** Features Small Item Start ***** -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
-                            <div class="features-small-item">
-                                <div class="icon">
-                                    <i><img src="assets/images/featured-item-01.png" alt=""></i>
-                                </div>
-                                <h5 class="features-title">Marketing especializado</h5>
-                                <p>Nos adaptamos a tus necesidades</p>
-                            </div>
-                        </div>
-                        <!-- ***** Features Small Item End ***** -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Small End ***** -->
-
-    <div class="container-video" id="features" >
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/SOvx6-K94VA?start=250" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video" allowfullscreen></iframe>
-      </div>
-    
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section padding-top-70 padding-bottom-0" >
-      
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
-                    <div class="left-heading">
-                        <h2 class="section-title">Discutamos sobre su servicios</h2>
-                    </div>
-                    <div class="left-text">
-                        <p>Esta excelente asesoría a nuestros clientes se logra a través de la amplia experiencia de nuestro equipo de trabajo, que forman una equipo de especialistas para atender de forma eficiente y dar una Compratenible.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="hr"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Big Item End ***** -->
-
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section padding-bottom-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
-                    <div class="left-heading">
-                        <h2 class="section-title">Podemos ayudarle a hacer crecer su negocio</h2>
-                    </div>
-                    <div class="left-text">
-                        <p>Llamkay busca ayudar efectivamente al cliente en la superación de los problemas y barreras que dificultan el logro de sus objetivos, metas y resultados, y tiene como misión “ser socio estratégico en el diseño e implementación de soluciones para nuestros clientes”</p>
-                    </div>
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Big Item End ***** -->
-
-    <!-- ***** Home Parallax Start ***** -->
-    <section class="mini" id="work-process">
-        <div class="mini-content">
-            <div class="container">
-                <div class="row">
-                    <div class="offset-lg-3 col-lg-6">
-                        <div class="info">
-                            <h1>Metodo de Trabajo</h1>
-                            <p>Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet interdum, vehicula ut ex. Donec ante diam.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ***** Mini Box Start ***** -->
-                <div class="row">
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                       
-                    </div>
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#header">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#details">Detalles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#testimonials">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#pricing-plans">Planes</a>
+                    </li>                   
                     
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        <a href="#" class="mini-box">
-                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Discutir</strong>
-                            <span>Godard pabst prism fam cliche.</span>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+                <span class="nav-item social-icons">
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
                         </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        <a href="#" class="mini-box">
-                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Revisar</strong>
-                            <span>Godard pabst prism fam cliche.</span>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
                         </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        <a href="#" class="mini-box">
-                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Aprovar</strong>
-                            <span>Godard pabst prism fam cliche.</span>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        <a href="#" class="mini-box">
-                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Lanzar</strong>
-                            <span>Godard pabst prism fam cliche.</span>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                       
-                    </div>
+                    </span>
+                </span>
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/logo.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h3>Te brindamos la mejor manera de promocionar tu servicio</h3>
+                        <a class="btn-solid-lg page-scroll" href="#details">Más</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+        <div class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="card-image">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Estrategia y marca</h5>
+                                <div class="card-text">Para construir una base sólida para su servicio, necesita una marca fuerte y una estrategia solida.</div>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="card-image">
+                                <i class="fas fa-pencil-ruler"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">La mejor Relación</h5>
+                                <div class="card-text">
+                                    Contáctenos de inmediato si tiene alguna pregunta en mente, estamos al tanto a las sugerencias de nuestros clientes</div>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+
+                        <!-- Card -->
+                        <div class="card">
+                            <div class="card-image">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Publicidad Digital</h5>
+                                <div class="card-text">Podemos entregar un plan de marketing integral y luego ejecutarlo hasta el más mínimo detalle.</div>
+                            </div>
+                        </div>
+                        <!-- end of card -->
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of services -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+    
+    
+
+    <!-- Details 1 -->
+    <div id="details" class="basic-1">
+
+        <div class="container-video" id="features" >
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=Yf8h_NjQlwk&ab_channel=B%C3%A1sicos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video" allowfullscreen></iframe>
+          </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-xl-5">
+                    <div class="text-container">
+                        <h2>Estrategia y marca </h2>
+                        <hr class="hr-heading">
+                        <p>Para hacer crecer su negocio necesita una base sólida, necesita una marca fuerte y una estrategia solida. Puede confiar en nuestra experiencia para ayudarlo a superar sus obstaculos</p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Delivering powerful brands for popular shops</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Creating beautiful concepts and evocative logos</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Preparing complete branding guides and styles</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Speedy delivery of marketing design assets</div>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6 col-xl-7">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/details-1.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of details 1 -->
+
+
+    <!-- Details 2 -->
+    <div class="basic-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="image-area">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/details-2.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of image-area -->
+                <div class="text-area">
+                    <div class="text-container">
+                        <h2>Podemos ayudarle a hacer crecer su negocio</h2>
+                        <hr class="hr-heading">
+                        <p>
+                            Esta excelente asesoría a nuestros clientes se logra a través de la amplia experiencia de nuestro equipo de trabajo, que forman una equipo de especialistas para atender de forma eficiente y dar una Compratenible.</p>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox">Más</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of text-area -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container-fluid -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of details 2 -->
+
+
+    <!-- Details Lightbox -->
+    <!-- Lightbox -->
+	<div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+			<div class="col-lg-8">
+                <div class="image-container">
+                    <img class="img-fluid" src="images/details-lightbox.jpg" alt="alternative">
+                </div> <!-- end of image-container -->
+			</div> <!-- end of col -->
+			<div class="col-lg-4">
+                <h3>Establecer Metas</h3>
+				<hr>
+                <p>La aplicación puede ayudarlo fácilmente a rastrear su evolución de desarrollo personal si se toma el tiempo para configurarla</p>
+                <h4>Comentarios de los usuarios</h4>
+                <p>Esta es una gran aplicación que puede ayudarlo a ahorrar tiempo y facilitar su vida. Y ayudará a mejorar su productividad.</p>
+                <ul class="list-unstyled li-space-lg">
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Presentación del servicio</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Informe de estadísticas</div>
+                    </li>
+                   
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">información detalla</div>
+                    </li>
+                    <li class="media">
+                        <i class="fas fa-check"></i><div class="media-body">Interfaz intuitiva</div>
+                    </li>
+                </ul>
+                <a class="btn-solid-reg mfp-close page-scroll" href="#contact">Contactanos</a> <button class="btn-outline-reg mfp-close as-button" type="button">Cerrar</button>
+			</div> <!-- end of col -->
+		</div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+    <!-- end of details lightbox -->
+
+
+   
+
+
+    <!-- Mission -->
+    <div class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="text-container">
+                    <h4>Llamkay busca ayudar efectivamente al cliente en la superación de los problemas y barreras que dificultan el logro de sus objetivos, metas y resultados, y tiene como misión “ser socio estratégico en el diseño e implementación de soluciones para nuestros clientes”</h4>
+                </div> <!-- end of text-container -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-4 -->
+    <!-- end of mission -->
+
+
+  <!-- ***** Testimonials Start ***** -->
+  <section class="section" id="testimonials">
+    <div class="container">
+        <!-- ***** Section Title Start ***** -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="center-heading">
+                    <h2 class="section-title">Testimonios</h2>
                 </div>
-                <!-- ***** Mini Box End ***** -->
             </div>
         </div>
-    </section>
-    <!-- ***** Home Parallax End ***** -->
+        <!-- ***** Section Title End ***** -->
 
-    <!-- ***** Testimonials Start ***** -->
-    <section class="section" id="testimonials">
+        <div class="row">
+            <!-- ***** Testimonials Item Start ***** -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="team-item">
+                    <div class="team-content">
+                        <i><img src="assets/images/testimonial-icon.png" alt=""></i>
+                        <p>Realmente asi de ayuda a la hora de obtener una clientes y asistencia profesional excelente. ¡Se lo recomendaría a todo el mundo!</p>
+                        <div class="user-image">
+                            <img src="images/tst-image1.png" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="user-name">Catherine Lopez</h3>
+                            <span>Diseñador grafico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Testimonials Item End ***** -->
+            
+            <!-- ***** Testimonials Item Start ***** -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="team-item">
+                    <div class="team-content">
+                        <i><img src="images/testimonial-icon.png" alt=""></i>
+                        <p>Decide probar este servicio para mi negocio, Gracias por el increíble apoyo y los profesionales que pudieron hacerlo realidad.</p>
+                        <div class="user-image">
+                            <img src="images/tst-image1.png" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="user-name">GyS tableros</h3>
+                            <span>Mudanzas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Testimonials Item End ***** -->
+            
+            <!-- ***** Testimonials Item Start ***** -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="team-item">
+                    <div class="team-content">
+                        <i><img src="assets/images/testimonial-icon.png" alt=""></i>
+                        <p>Decide probar este servicio para mi negocio, Gracias por el increíble apoyo y los profesionales que pudieron hacerlo realidad.</p>
+                        <div class="user-image">
+                            <img src="images/tst-image1.png" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="user-name">Ardilla Tec</h3>
+                            <span>Tecnico</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ***** Testimonials Item End ***** -->
+        </div>
+    </div>
+</section>
+<!-- ***** Testimonials End ***** -->
+
+   
+
+   
+    <!-- About -->
+    <div id="about" class="basic-6">
         <div class="container">
-            <!-- ***** Section Title Start ***** -->
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="center-heading">
-                        <h2 class="section-title">¿Qué dicen ellos?</h2>
-                    </div>
-                </div>
-            </div>
-            <!-- ***** Section Title End ***** -->
+                    <div class="text-container bg-gray">
+                        <h2>Acerca de nuestro equipo</h2>
+                        <p>Somos una comunidad que ayuda a todas las personas que trabjan independientemnete a encontrar proyectos. </p>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Integridad: Honestos, justos y coherentes en todas nuestras acciones.
+</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Respeto Mutuo: Mantener el respeto y cordialidad tanto entre los integrantes de la familia Lllamkay como con los clientes.</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Responsabilidad: Asumir compromisos y cumplirlos a cabalidad.</div>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/about.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-6 -->
+    <!-- end of about -->
 
-            <div class="row">
-                <!-- ***** Testimonials Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="team-item">
-                        <div class="team-content">
-                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                            <p>Realmente asi de ayuda a la hora de obtener una clientes y asistencia profesional excelente. ¡Se lo recomendaría a todo el mundo!</p>
-                            <div class="user-image">
-                                <img src="assets/images/tst-image1.png" alt="">
+     <!-- TEAM -->
+     <section id="team">
+        <div class="container">
+             <div class="row">
+
+                  <div class="col-md-12 col-sm-12">
+                       <div class="section-title">
+                            <h2>Equipo <small>Conoce a nuestros profesionales</small></h2>
+                       </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6">
+                       <div class="team-thumb">
+                            <div class="team-image">
+                                 <img src="images/author-image1.jpg" class="img-responsive" alt="">
                             </div>
                             <div class="team-info">
-                                <h3 class="user-name">Catherine Lopez</h3>
-                                <span>Diseñador grafico</span>
+                                 <h3>Wendy Orozco</h3>
+                                 <span>Administración de empresa</span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Testimonials Item End ***** -->
-                
-                <!-- ***** Testimonials Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="team-item">
-                        <div class="team-content">
-                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                            <p>Decide probar este servicio para mi negocio, Gracias por el increíble apoyo y los profesionales que pudieron hacerlo realidad.</p>
-                            <div class="user-image">
-                                <img src="http://placehold.it/60x60" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3 class="user-name">Josselin Huranga</h3>
-                                <span>Mudanzas</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Testimonials Item End ***** -->
-                
-                <!-- ***** Testimonials Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="team-item">
-                        <div class="team-content">
-                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                            <p>Decide probar este servicio para mi negocio, Gracias por el increíble apoyo y los profesionales que pudieron hacerlo realidad.</p>
-                            <div class="user-image">
-                                <img src="http://placehold.it/60x60" alt="">
+                            <ul class="social-icon">
+                                 <li><a href="#" class="fab fa-facebook" attr="facebook icon"></a></li>
+                                 <li><a href="#" class="fab fa-twitter"></a></li>
+                                 <li><a href="#" class="fab fa-instagram"></a></li>
+                            </ul>
+                       </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6">
+                       <div class="team-thumb">
+                            <div class="team-image">
+                                 <img src="images/author-image2.jpg" class="img-responsive" alt="">
                             </div>
                             <div class="team-info">
-                                <h3 class="user-name">Willians Gutierrez</h3>
-                                <span>Gasfitero</span>
+                                 <h3>Axel <br> Soria</h3>
+                                 <span>Administración de empresa</span>
                             </div>
-                        </div>
+                            <ul class="social-icon">
+                                 <li><a href="#" class="fab fa-google"></a></li>
+                                 <li><a href="#" class="fab fa-instagram"></a></li>
+                            </ul>
+                       </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6">
+                       <div class="team-thumb">
+                            <div class="team-image">
+                                 <img src="images/author-image3.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="team-info">
+                                 <h3>Josselin Huranga</h3>
+                                 <span>Ingeneria <br>de sistemmas</span>
+                            </div>
+                            <ul class="social-icon">
+                                 <li><a href="#" class="fab fa-twitter"></a></li>                                 
+                                 <li><a href="#" class="fab fa-linkedin"></a></li>
+                            </ul>
+                       </div>
+                  </div>
+
+                  <div class="col-md-3 col-sm-6">
+                       <div class="team-thumb">
+                            <div class="team-image">
+                                 <img src="images/author-image4.jpg" class="img-responsive" alt="">
+                            </div>
+                            <div class="team-info">
+                                 <h3>Tania Sanchez</h3>
+                                 <span>Administración de empresa</span>
+                            </div>
+                            <ul class="social-icon">
+                                 <li><a href="#" class="fab fa-twitter"></a></li>
+                                 <li><a href="#" class="fab fa-google"></a></li>                                 
+                            </ul>
+                       </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                    <div class="team-thumb">
+                         <div class="team-image">
+                              <img src="images/author-image5.jpg" class="img-responsive" alt="">
+                         </div>
+                         <div class="team-info">
+                              <h3>Willians Gutierrez</h3>
+                              <span>Ingeneria de sistemmas</span>
+                         </div>
+                         <ul class="social-icon">
+                              <li><a href="#" class="fab fa-twitter"></a></li>
+                              <li><a href="#" class="fab fa-google"></a></li>                                 
+                         </ul>
                     </div>
-                </div>
-                <!-- ***** Testimonials Item End ***** -->
-            </div>
+               </div>
+
+             </div>
         </div>
-    </section>
-    <!-- ***** Testimonials End ***** -->
+   </section>
+
+    <!-- end of about -->
+
 
     <!-- ***** Pricing Plans Start ***** -->
     <section class="section colored" id="pricing-plans">
@@ -354,7 +530,13 @@ https://templatemo.com/tm-535-softy-pinko
                                 <li class="active"> Perfil básico</li>
                                 <li class="active">2 Publicación gratis</li>                                                                
                                 <li class="active">Mensajería básica</li>
-                                <li class="active">Anuncios publicitarios</li>                               
+                                <li class="active">Anuncios publicitarios</li>
+                                <li class="active">.</li>
+                                <li class="active">.</li>
+                                <li class="active">.</li>
+                                <li class="active">.</li>
+                                <li class="active">.</li>
+                                                          
                             </ul>
                         </div>
                         <div class="pricing-footer">
@@ -384,6 +566,9 @@ https://templatemo.com/tm-535-softy-pinko
                                 <li class="active">Gestión de usuarios</li>
                                 <li class="active">Reportes Generales</li>
                                 <li class="active">Calificación de sus clientes</li>
+                                <li class="active">.</li>
+                                <li class="active">.</li>
+                                <li class="active">.</li>
                             </ul>
                         </div>
                         <div class="pricing-footer">
@@ -430,189 +615,128 @@ https://templatemo.com/tm-535-softy-pinko
     </section>
     <!-- ***** Pricing Plans End ***** -->
 
-    <!-- ***** Counter Parallax Start ***** -->
-    <section class="counter">
-        <div class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item decoration-bottom">
-                            <strong>1</strong>
-                            <span>Aplicación</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item decoration-top">
-                            <strong>60</strong>
-                            <span>Servicios</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item decoration-bottom">
-                            <strong>40</strong>
-                            <span>Clientes ayudados</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item">
-                            <strong>163</strong>
-                            <span>Usuarios satisfechos</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Counter Parallax End ***** -->   
 
-<!-- ***** Blog Start ***** -->
-<section class="section" id="blog">
-    <div class="container">
-        <!-- ***** Section Title Start ***** -->
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="center-heading">
-                    <h2 class="section-title">Nuestro Equipo</h2>
-                </div>
-            </div>
-            <div class="offset-lg-3 col-lg-6">
-                <div class="center-text">
-                    <p>Conocene a nuestro equipo de profesionales.</p>
-                </div>
-            </div>
-        </div>
-        <!-- ***** Section Title End ***** -->
-
-        <div class="row">
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-style2 team-card"></div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-style2 team-card">
-                    <div class="card_img"><img class="img-fluid img-full loaded" data-original="img/team1.jpg" data-was-processed="true" src="assets/images/team2.jpg" alt="Team one">
-                        <div class="hover-overlay effect-scale"><a class="overlay_icon" href="https://www.facebook.com/EICA.Proyectos/?ref=page_internal" target="_blank"><i class="fa fa-facebook"></i></a><a class="overlay_icon" href="#"><i class="fa fa-twitter"></i></a><a class="overlay_icon"
-                                href="#"><i class="fa fa-linkedin"></i></a></div>
-                    </div>
-                    <div class="card-block">
-                        <h4 class="card-title">Josselin</h4><span>Administración&nbsp;de&nbsp;Empresas<br></span></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-style2 team-card">
-                    <div class="card_img"><img class="img-fluid img-full loaded" data-original="img/team1.jpg" data-was-processed="true" src="assets/images/team3.jpg" alt="Team one">
-                        <div class="hover-overlay effect-scale"><a class="overlay_icon" href="https://www.facebook.com/EICA.Proyectos/?ref=page_internal" target="_blank"><i class="fa fa-facebook"></i></a><a class="overlay_icon" href="#"><i class="fa fa-twitter"></i></a><a class="overlay_icon"
-                                href="#"><i class="fa fa-linkedin"></i></a></div>
-                    </div>
-                    <div class="card-block">
-                        <h4 class="card-title">Wendy</h4><span>Ingeneria&nbsp;de&nbsp;Sistemas<br><br></span></div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card card-style2 team-card">
-                    <div class="card_img"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- ***** Blog End ***** -->
-
-    <!-- ***** Contact Us Start ***** -->
-    <section class="section colored" id="contact-us">
+    <!-- Invitation -->
+    <div class="basic-7">
         <div class="container">
-            <!-- ***** Section Title Start ***** -->
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="center-heading">
-                        <h2 class="section-title">Hable con nosotros</h2>
-                    </div>
-                </div>
-                <div class="offset-lg-3 col-lg-6">
-                    
-                </div>
-            </div>
-            <!-- ***** Section Title End ***** -->
+                    <h4>Le invitamos a reservar una llamada de consulta con uno de nuestros Asesores y le garantizamos que no será una gran decisión</h4>
+                    <a class="btn-solid-lg page-scroll" href="#contact">Contactanos</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-7 -->
+    <!-- end of invitation -->
 
-            <div class="row">
-                <!-- ***** Contact Text Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <h5 class="margin-bottom-30">Estamos en contacto</h5>
-                    <div class="contact-text">                        
-                        <p>envíanos un email en cualquier momento. Estamos abiertos a resolver las dudas nuestros futuros y actuales clientes</p>
-                    </div>
-                </div>
-                <!-- ***** Contact Text End ***** -->
 
-                <!-- ***** Contact Form Start ***** -->
-                <div class="col-lg-8 col-md-6 col-sm-12">
-                    <div class="contact-form">
-                        <form id="contact" action="/send-email" method="post">
-                          <div class="row">
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="name" type="text" class="form-control" id="name" placeholder="Nombre completo" required="">
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="Correo" required="">
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Escribenos" required=""></textarea>
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="form-submit" class="main-button">Enviar mesanje</button>
-                              </fieldset>
-                            </div>
-                          </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- ***** Contact Form End ***** -->
-            </div>
-        </div>
-    </section>
-    <!-- ***** Contact Us End ***** -->
-    
-    <!-- ***** Footer Start ***** -->
-    <footer>
+    <!-- Contact -->
+    <div id="contact" class="form-1">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/tec.ardilla"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.facebook.com/tec.ardilla"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.instagram.com/willssgz/"><i class="fa fa-instagram"></i></a></li>
+                <div class="col-lg-12">
+                    <h2>Contactanos</h2>
+                    <p class="p-heading">No dude en llamarnos o simplemente use el formulario de contacto a continuación para resolver tus dudas</p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li><i class="fas fa-map-marker-alt"></i> &nbsp; Chorrillos, Lima, Perú</li>
+                        <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:932109279">+51 932 109 279</a></li>
+                        <li><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:contact@site.com">llamkay@gmail.com</a></li>
                     </ul>
-                </div>
-            </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="copyright">Copyright &copy; 2021 Llamkay Company - Design: musimeris</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+                    
+                    <!-- Contact Form -->
+                    <form id="contactForm" action="/send-email" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Nombre</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">Enviar</button>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of contact -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-col first">
+                        <h6>Sobre LLAMKAY</h6>
+                        <p class="p-small">Llamkay busca ayudar efectivamente al cliente en la superación de los problemas y barreras que dificultan el logro de sus objetivos, metas y resultados</p>
+                    </div> <!-- end of footer-col -->
+                    <div class="footer-col second">
+                        <h6>Links</h6>
+                        <ul class="list-unstyled li-space-lg p-small">
+                           
+                            
+                            <li>Menú: <a class="page-scroll" href="#header">Inicio</a>, <a class="page-scroll" href="#details">Detalles</a>, <a class="page-scroll" href="#strengths">Fuerzas</a>, <a class="page-scroll" href="#contact">Contacto</a></li>
+                        </ul>
+                    </div> <!-- end of footer-col -->
+                    <div class="footer-col third">
+                        <span class="fa-stack">
+                            <a href="https://www.facebook.com/tec.ardilla" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                      
+                        <span class="fa-stack">
+                            <a href="https://www.facebook.com/tec.ardilla" target="_blank">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <p class="p-small">Nos encantaría escucharlo <a href="mailto:contact@site.com"><strong>contact@site.com</strong></a></p>
+                    </div> <!-- end of footer-col -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © <a href="#your-link">Llamkay</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+
+        <div class="container">
+            <div class="row"> 
+                <div class="col-lg-12">
+                    <p class="p-small">Distributed by <a href="https://www.facebook.com/tec.ardilla">Willssgz</a></p> 
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
     
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins -->
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script> 
-    
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
-
-  </body>
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
 </html>
